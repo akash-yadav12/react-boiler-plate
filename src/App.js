@@ -38,13 +38,14 @@ import './App.css';
 import ComponentA from './components/ComponentA';
 import { UserProvider } from './components/userContext';
 import PostList from './components/PostList';
+import PostForm from './components/PostForm';
 
 function App() {
   return (
     <div className="App">
 
-
-      <PostList/>
+      <PostForm/>
+      {/* <PostList/> */}
 
       {/* <UserProvider value="Akash">
         <ComponentA/>
